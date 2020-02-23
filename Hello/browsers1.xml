@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adhoc">
+<listeners>
+<listener class-name="Berry.application"></listener>
+
+</listeners>
+<test name="Cat">
+
+<parameter name="url" value="https:www.amazon.com"></parameter>
+
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="Berry.Testdata"></class>
+
+</classes>
+</test>
+<test name="Dog">
+
+<parameter name="url" value="https://amazon.com"></parameter>
+
+<parameter name="browser" value="Firefox"></parameter>
+<classes>
+
+<class name="Berry.Testdata"></class>
+
+</classes>
+</test>
+ </suite>

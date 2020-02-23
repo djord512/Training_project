@@ -1,0 +1,1 @@
+ System.setProperty("webdriver.chrome.driver","/Users/dorinajordanov/Downloads/chromedriver");

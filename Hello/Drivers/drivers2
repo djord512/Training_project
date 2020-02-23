@@ -1,0 +1,1 @@
+System.setProperty("webdriver.gecko.driver","/Users/dorinajordanov/Downloads/geckodriver");
